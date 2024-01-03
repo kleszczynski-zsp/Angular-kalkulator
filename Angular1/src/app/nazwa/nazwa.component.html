@@ -1,0 +1,16 @@
+<div>
+    <input type="text" value="{{display}}" readonly>
+</div>
+<p>
+    <button (click)="appendNumber(1)">1</button>
+    <button (click)="appendNumber(2)">2</button>
+    <button (click)="appendNumber(3)">3</button>
+</p>
+<p>
+    <button (click)="appendOperator('+')">+</button>
+</p>
+<p>
+    <button (click)="calculate()">=</button>
+    <button (click)="clear()">C</button>
+    <button (click)="delete()">Delete</button>
+</p>
